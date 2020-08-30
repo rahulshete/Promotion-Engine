@@ -8,6 +8,8 @@ namespace PromotionEngine
         static void Main(string[] args)
         {
             Console.WriteLine("Begin");
+
+            //Note: Currently Error handling is not taken in consideration while implementatin
             
 
             //List<char> shoppingCart = new List<char>() { 'A', 'B' ,'C'};

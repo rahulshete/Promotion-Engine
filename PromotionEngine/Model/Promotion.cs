@@ -12,9 +12,7 @@ namespace PromotionEngine.Model
         public int NumSKURequired { get; set; }
         public Boolean IsDiscountInPercentage { get; set; }
         public decimal FlatDiscount { get; set; }
-
         public decimal DiscountPercentage { get; set; }
-
         public bool IsOtherSKURequired { get; set; }
         public char? OtherSKULookUp { get; set; }
 

@@ -14,6 +14,11 @@ namespace PromotionEngine
         {
             _activePromotion = new ActivePromotion();
         }
+        /// <summary>
+        /// Function to get total price for shopping list based on Promotion
+        /// </summary>
+        /// <param name="cartItems"></param>
+        /// <returns></returns>
         public decimal GetShoppingCartPriceList(List<SKUQuntity> cartItems)
         {
             decimal totalPrice = 0.0M;

@@ -10,7 +10,5 @@ namespace PromotionEngine.Model
     {
         public char Unit { get; set; }
         public int Price { get; set; }
-
-        
     }
 }

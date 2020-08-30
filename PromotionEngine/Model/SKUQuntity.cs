@@ -11,7 +11,6 @@ namespace PromotionEngine.Model
     {
         public SKU SKU { get; set; }
         public int Quntity { get; set; }
-
         public bool ItemProcessed { get; set; }
     }
 }

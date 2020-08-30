@@ -10,6 +10,11 @@ namespace PromotionEngine
 {
     public class PromotionEngineCalculator
     {
+        /// <summary>
+        /// Function to Calculate Price
+        /// </summary>
+        /// <param name="shoppingCart"></param>
+        /// <returns></returns>
         public decimal CalculateTotalPrice(List<char> shoppingCart)
         {
             decimal finalPrice = 0.0M;
@@ -49,6 +54,10 @@ namespace PromotionEngine
             return finalPrice;
         }
 
+        /// <summary>
+        /// Get Master product list in real project it will replace with API/DB function
+        /// </summary>
+        /// <returns></returns>
         private List<SKU> GetMasterPriceList()
         {
             List<SKU> masterSKUList = new List<SKU>();

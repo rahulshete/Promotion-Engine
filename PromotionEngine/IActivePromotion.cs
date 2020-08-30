@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace PromotionEngine
 {
+    /// <summary>
+    /// Interface which can be used to apply multiple type Active Promotion
+    /// </summary>
     interface IActivePromotion
     {
         List<Promotion> GetActivePromotion();
